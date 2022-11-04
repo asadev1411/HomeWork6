@@ -49,5 +49,26 @@ public class Main {
         for (int q = 1; q <= 512; q*=2) {
             System.out.println(q);
         }
+
+        //HW3. Task №1
+        System.out.println("");
+        System.out.println("ДЗ-3. Задание №1");
+        int salary = 29000;
+        int total = 0;
+        for (int q = 1; q <= 12; q++) {
+            total = total + salary;
+            System.out.println("Месяц " + q + " сумма накоплений равна " + total + " рублей.");
+        }
+
+        //HW3. Task №2
+        System.out.println("");
+        System.out.println("ДЗ-3. Задание №2");
+        int salary1 = 29000;
+        int total1 = 0;
+        for (int q = 1; q <= 12; q++) {
+            total1 = total1 + total1/100;
+            total1 = total1 + salary1;
+            System.out.println("Месяц " + q + " сумма накоплений равна " + total1 + " рублей.");
+        }
     }
 }
